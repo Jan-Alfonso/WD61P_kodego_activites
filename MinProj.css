@@ -139,6 +139,7 @@ body {
   width: 10%;
   height: 10%;
   opacity: 0.9;
+  transition: all 0.2s ease;
 }
 
 .Icons:hover {
@@ -148,7 +149,6 @@ body {
   height: 15%;
   border-radius: 5%;
   filter: drop-shadow(0 0 0.75rem #ffdd00);
-  transition: 0.5s;
 }
 
 .carousel-inner {
