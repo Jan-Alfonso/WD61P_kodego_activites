@@ -185,6 +185,7 @@ body {
     rgba(255, 0, 200, 0.219) 100%
   );
   text-align: center;
+  border-top: solid 1px #ffdd00;
 }
 
 #Header {
