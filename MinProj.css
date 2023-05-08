@@ -36,6 +36,45 @@
   #IntroDescription {
     text-align: center;
   }
+
+  .ImageWithLayers {
+    margin: 2rem;
+    height: 300px;
+    width: 300px;
+  }
+
+  .IllustrationL {
+    height: 15rem;
+    width: auto;
+  }
+
+  .SingleImg {
+    height: 15rem;
+    width: auto;
+    filter: drop-shadow(0 0 0.25rem #00eeff);
+  }
+
+  .IllustrationI {
+    position: relative;
+    width: auto;
+    left: -20px;
+    top: 20px;
+    height: 15rem;
+    filter: drop-shadow(0 0 0.25rem #00eeff);
+  }
+  .ImageWithLayers {
+    height: 15rem;
+    width: auto;
+  }
+
+  .Cards {
+    padding: 10%;
+  }
+  .FooterIcons {
+    gap: 10px;
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media only screen and (min-width: 681px) {
@@ -63,6 +102,37 @@
     top: -50px;
     opacity: 1;
     border-radius: 45%;
+  }
+
+  .IllustrationI {
+    position: relative;
+    top: 100px;
+    left: -50px;
+    width: auto;
+    height: 30rem;
+    filter: drop-shadow(0 0 0.25rem #00eeff);
+  }
+
+  .IllustrationL {
+    position: relative;
+    top: 0px;
+    width: auto;
+    height: 25rem;
+  }
+
+  .SingleImg {
+    height: 30rem;
+    width: auto;
+    filter: drop-shadow(0 0 0.25rem #00eeff);
+  }
+
+  .ImageWithLayers {
+    height: 40rem;
+    width: auto;
+  }
+  .FooterIcons {
+    width: 3rem;
+    height: 3rem;
   }
 }
 
@@ -99,8 +169,14 @@ body {
 }
 
 #TransparentBG {
-  background-color: rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    45deg,
+    rgba(238, 110, 255),
+    rgba(255, 190, 115) 100%
+  );
   height: 100%;
+  border-bottom: solid #ffdd00;
+  filter: drop-shadow(0 0.75rem 0.75rem #ff25ff59);
 }
 
 #Header {
@@ -157,6 +233,21 @@ body {
 }
 
 .card-img-top {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.CardPadding {
+  padding: 3%;
+}
+
+.CardBtn {
+  background-color: #330033;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.CardBtn:hover {
+  transition: 0.5s ease;
+  background: linear-gradient(45deg, rgba(255, 0, 242), rgba(255, 217, 0) 100%);
 }
